@@ -3,21 +3,25 @@ import numpy as np
 import subprocess
 import os
 #import searchPaths
-import path_name_class
+#import path_name_class
+
+#-----------------------------------------------------------#
+class PathClass:
+    path_string = str()
+    folder_string = str()
+#-----------------------------------------------------------#
 
 #This set of functions loads the JobSearch Path index from company server and makes it ready for searching 
-
 def init_search_path():
-    pathArr = pd.read_csv(r'C:\Users\EBurchett\Automation\JobSearchGUI\JobSearchGUI\out.csv', skip_blank_lines=True,error_bad_lines=False)
+    pathArr = pd.read_csv(r'R:\Administrative\Computer & Phone Systems\Ethan Scripts\index.csv', skip_blank_lines=True,error_bad_lines=False)
     pathArr = pathArr.to_numpy()
 
     return pathArr
 
-
+#searches folder list with job num and returns the path if found
 def search_get_filepath(path_array, jobNum):
     
-    
-    pc = path_name_class.PathClass()
+    pc = PathClass()
     pc.path_string = 'NULL'
 
     length = path_array.size
@@ -39,67 +43,3 @@ def search_get_filepath(path_array, jobNum):
     if not found:
         print('Not found')  
     return pc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def search_paths(jobnum,pathArr):
-#     path = 'NULL'
-
-#     length = pathArr.size
-#     i = 0
-#     while i < length: 
-#         #print(pathArr[i])
-#         i = i + 1
-#         #print(i)
-#         #try:
-#             #print(pathArr[i][0])
-#         #except:
-#             #print('error out of bounds')
-        
-#         try:
-#             if jobnum in pathArr[i][0]:
-#                 path = pathArr[i][1]
-#                 break
-#         except:
-#             pass
-
-        
-#     print(path, jobnum)
-
-
-#     return path

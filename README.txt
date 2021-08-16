@@ -24,7 +24,7 @@ Company Indexing.
 
 	This program writes (name, path) data to index.csv
 
-	This program writes to log file, date of index, time script ran, how many new files
+	This program writes to time_log file, date of index, time script ran, how many new files
 	it discovered.
 
 	Goal: make this script run in 5 min and schedule it to run every 2 hours during
@@ -32,7 +32,7 @@ Company Indexing.
 
 
 Company Job Search GUI. 
-	This is the front facing application for the users at Budingers. 
+	This is the front facing application for the users at Budinger. 
 	Simply type in a job number(or close to the job num you want)
 	and it will search an index already loaded in memory. If found, it will 
 	display the job name/number and let the user open the job folder 
