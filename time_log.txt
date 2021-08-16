@@ -1,0 +1,15 @@
+07/22/21 11:27 execution time(s):  1590.53 -> 26 min to index the whole server. 
+
+07/22/21 12:46 execution time(s):  833.72
+07/22/21 14:22 execution time(s):  833.23
+07/22/21 14:36 execution time(s):  723.48
+07/26/21 08:37 execution time(s):  868.97
+07/26/21 17:34 execution time(s):  800.22
+07/30/21 08:35 execution time(s):  1233.09
+08/03/21 09:25 execution time(s):  830.55
+08/04/21 12:40 execution time(s):  840.53
+08/05/21 09:48 execution time(s):  836.25
+08/05/21 10:44 execution time(s):  766.33
+08/09/21 10:57 execution time(s):  1891.72
+08/16/21 13:22 execution time(s):  1391.58
+08/16/21 14:56 execution time(s):  880.91
