@@ -13,7 +13,7 @@ class PathClass:
 
 #This set of functions loads the JobSearch Path index from company server and makes it ready for searching 
 def init_search_path():
-    pathArr = pd.read_csv(r'R:\Administrative\Computer & Phone Systems\Ethan Scripts\index.csv', skip_blank_lines=True,error_bad_lines=False)
+    pathArr = pd.read_csv(r'R:\Default\Pathname', skip_blank_lines=True,error_bad_lines=False)
     pathArr = pathArr.to_numpy()
 
     return pathArr
