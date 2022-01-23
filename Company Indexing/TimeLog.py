@@ -8,7 +8,7 @@ class TimeLog:
     def __init__(self) -> None:
         self.startt = float()
         self.endt = float()
-        self.log_file = r'R:\Administrative\Computer & Phone Systems\Ethan Scripts\time_log.txt'
+        self.log_file = r'R:\Default\Pathname'
         self.total = float()
         self.file_object = open(self.log_file, 'a') # open log file for appending
 
