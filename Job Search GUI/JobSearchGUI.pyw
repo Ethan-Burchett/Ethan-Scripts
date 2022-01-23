@@ -62,7 +62,7 @@ def geometry():
 
 
 #-----------------------------------------------------------#
-zap_hook_url = 'https://hooks.zapier.com/hooks/catch/10537799/b2sccdl/'
+zap_hook_url = 'https://hooks.zapier.com/hooks/catch/dummy/'
 
 def bug_report_webhook():
     global pc    
