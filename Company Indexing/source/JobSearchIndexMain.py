@@ -29,7 +29,7 @@ df = pd.DataFrame()
 
 column_names = ["name","path"]
 
-entry_path = pd.read_csv('R:\Administrative\Computer & Phone Systems\Ethan Scripts\Company Indexing\entry_path_job_folder.csv', skip_blank_lines=True,error_bad_lines=False)
+entry_path = pd.read_csv('R:\Default\Pathname', skip_blank_lines=True,error_bad_lines=False)
 entry_path_np = entry_path.to_numpy()
 
 #loops through each directory in entry_path
@@ -47,7 +47,7 @@ for x in range(len(entry_path_np)):
     df = df.append(tdf)
     
 column_names = ["name","path"]
-df.to_csv('R:\Administrative\Computer & Phone Systems\Ethan Scripts\index.csv', index = False, quotechar='"',header=column_names)
+df.to_csv('R:\Default\Pathname', index = False, quotechar='"',header=column_names)
 
 timer.end()
 
