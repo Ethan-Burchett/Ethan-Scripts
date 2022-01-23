@@ -1,5 +1,7 @@
 Ethan Burchett Summer 2021
 
+There is no sensitive company information in this repo.
+
 There are several programs in the folder. 
 
 Company Indexing. 
