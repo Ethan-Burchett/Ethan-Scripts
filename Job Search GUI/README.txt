@@ -7,6 +7,6 @@ This job search gui application allows the user to do several tasks:
 
 
 In the background, a job search index program will run every few hours and index the 
-entire company job folders and general data. This will be run on a server that Scott can setup. 
+entire company job folders and general data. This will be run on a server that Admin can setup. 
 
 
