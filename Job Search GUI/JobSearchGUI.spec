@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['JobSearchGUI.pyw'],
-             pathex=['R:\\Administrative\\Computer & Phone Systems\\Ethan Scripts\\Job Search GUI'],
+             pathex=['default_path'],
              binaries=[],
              datas=[],
              hiddenimports=[],
